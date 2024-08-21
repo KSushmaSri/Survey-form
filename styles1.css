@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(35, 35, 169);
+    width:100%;
+    color: aliceblue;
+    font-size:15px;
+    font-family:tahoma;
+    }
+    h1,p{
+      text-align:center;
+    }
+    form{  
+    background-color:rgb(47, 54, 90);
+    color:white;
+    margin-left:450px;
+    margin-right: 350px;
+    width:500px;
+    height:600px;
+    justify-content: center;
+    }
+    fieldset{
+      border:none;
+      height:180px;
+      border-bottom:2px solid; padding-bottom:25px;
+    
+    }
+    label{
+      display:block;
+      margin-top:6px;
+    }
+    .details{
+      width:250;
+      margin-top:4px;
+    }
+    .some{
+      margin-top:40px;
+    }
+    .ta{
+      margin-top:5px;
+      width:300px;
+      height:60px;
+    }
+    fieldset:last-of-type {
+        border-bottom: none;
+      }
+      input[type="submit"]{
+       background-color:blue;
+       width:250px;
+       margin-left:100px;
+       height:28px;
+       border-color:white;
+       cursor: pointer;
+      }
+    
+    
