@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <title>Survey-form</title>
+  <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    <h1 id="title">Session Feedback Survey Form</h1>
+    <p id="description">Your feedback helps us to improve ..kindly fill the form.</p>
+    <form id="survey-form">
+        
+      <fieldset>
+      <label for="name" id="name-label">Enter your name:</label><input id="name" type="text" placeholder="Name"
+class="details" required/>
+      <label for="email" id="email-label">Enter your email: </label>
+      <input id="email" type="email" placeholder="mail@gmail.com" class="details" name="number" required/>
+          <label for="number" id="number-label">Enter you age:</label>
+          <input id="number" min="15" max="120" type="number" class="details" placeholder="age">
+<label for="dropdown">Education <select id="dropdown" class="dp">
+        <option>select here </option>
+        <option>Undergraduate</option>
+        <option>postgraduate</option>
+        <option>Secondary school</option>
+        </select></label>
+      </fieldset  
+        <fieldset class="some">
+        <legend>Rate the session:</legend>
+        <label><input type="radio" name="rate" value="value" >Bad👎</label>
+        <label><input type="radio" name="rate" value="value">Good👍</label>
+        <label><input type="radio" name="rate" value="value" checked>Excellent🥳</label>
+        </fieldset>        
+        <fieldset><label>Is the course useful to you?<input type="checkbox" value="yes" name="course" checked>Yes 
+<input type="checkbox" value="yes" name="course">No</label>
+        <label>Any suggestions..</label>
+        <textarea placeholder="good sessions.." class="ta"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+      
+    </form> 
+  </body>
+</html>
+
+
